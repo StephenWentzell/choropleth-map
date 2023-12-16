@@ -1,0 +1,66 @@
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    font-color: 1F4172;
+    font-family: 'Times New Roman', roman;
+    align-content: center;
+}
+
+.headlinecontainer {
+margin-left: 20%;
+margin-right: 20%;
+display: block;
+}
+
+.copy{
+    max-width: 1000px;
+}
+
+ caption{
+    max-width: 1000px;
+}
+
+p{
+  max-width: 1000px;  
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+.iframecontainer{
+    max-width: 1000px;
+}
+
+figure{
+    align-content: center;
+}
+
+img {display: block;
+width: 100%;
+max-width: 1000px;
+height: 75%;
+margin-left: auto;
+margin-right: auto;
+}
+
+figcaption {
+    line-height: 1.1em;
+    font-size: .8em;
+    color: gray
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
